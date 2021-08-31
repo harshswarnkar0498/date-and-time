@@ -1,9 +1,9 @@
 FROM golang:latest
 
-RUN git clone https://github.com/deadbedpk/web_app_ymdt.git
+RUN git clone https://github.com/harshswarnkar0498/date-and-time.git
 
-WORKDIR web_app_ymdt
+WORKDIR date-and-time
 
-CMD go run app.go
+CMD go run web.go
 
 EXPOSE 8000
