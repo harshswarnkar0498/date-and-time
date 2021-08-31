@@ -12,7 +12,7 @@ func handler(w http.ResponseWriter,r *http.Request) {
                 fmt.Fprintf(w,"Current time is: %d\n\n",st)
 }
 func main() {
-        http.HandleFunc("/",handler)
-        log.fatal(http.ListenAndServe(":8000",nil))
+        http.HandleFunc("/", handler)
+        log.Fatal(http.ListenAndServe(":8000",nil))
 }
 
