@@ -6,4 +6,4 @@ WORKDIR date-and-time
 
 CMD go run web.go
 
-EXPOSE 8000
+EXPOSE 8080
