@@ -6,4 +6,4 @@ WORKDIR date-and-time
 
 CMD go run web.go
 
-EXPOSE 8002
+EXPOSE 6001
