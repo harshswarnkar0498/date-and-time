@@ -16,4 +16,4 @@ spec:
       - name: current
         image: 020819991999/currentdateandtime
         ports:
-         - containerPort: 8080
+         - containerPort: 6001
